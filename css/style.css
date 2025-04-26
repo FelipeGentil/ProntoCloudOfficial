@@ -1,0 +1,151 @@
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+.main-container {
+    max-width: 1198px;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+}
+
+.main-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    background-color: #efefef;
+    display: block;
+    padding: 20px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    border-bottom: 2px solid #254159;
+}
+
+footer {
+    background-color: #254159;
+    color: white;
+    display: block;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 20px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+section {
+    font-size: 1.5rem;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 20px;
+    color: #305270;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #454545;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h4 {
+    background-color: #efefef;
+    font-size: 1.6rem;
+    color: #2489e0;
+    margin-bottom: 20px;
+    padding: 5px 0 0 0;
+    letter-spacing: 2px;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+ul li {
+    font-size: 1.4rem;
+    color: #454545;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ol li {
+    font-size: 1.4rem;
+    color: #454545;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+nav li {
+    margin: 1px 20px 1px 0;
+    padding: 10px;
+    background-color: #efefef;
+}
+
+nav li:hover {
+    background-color: #dfdfdf;
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover {
+    color: #305270;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+}
