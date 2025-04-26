@@ -1,24 +1,22 @@
-
-
-*,
-*::before,
-*::after {
+/* Reset de box-sizing */
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
-body {
+body, html {
     margin: 0;
     overflow-x: hidden;
+    background-color: white;
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
-    background-color: white;
 }
 
+/* Container principal */
 .main-container {
+    background-color: white;
     max-width: 1198px;
     margin: 0 auto;
     position: relative;
-    color: white;
 }
 
 .main-container::after {
@@ -27,6 +25,7 @@ body {
     clear: both;
 }
 
+/* Header */
 header {
     background-color: #efefef;
     display: block;
@@ -36,6 +35,7 @@ header {
     border-bottom: 2px solid #254159;
 }
 
+/* Footer */
 footer {
     background-color: #254159;
     color: white;
@@ -55,6 +55,7 @@ footer small {
     display: block;
 }
 
+/* Seções */
 section {
     font-size: 1.5rem;
     display: block;
@@ -64,6 +65,7 @@ section {
     color: #305270;
 }
 
+/* Tipografia */
 p {
     margin-bottom: 10px;
     line-height: 1.4;
@@ -97,6 +99,7 @@ h4 {
     letter-spacing: 2px;
 }
 
+/* Listas */
 ul {
     margin-left: 30px;
 }
@@ -119,6 +122,7 @@ ol li {
     line-height: 1.4;
 }
 
+/* Navegação lateral */
 section nav {
     display: block;
     float: left;
@@ -144,6 +148,7 @@ nav a:hover {
     color: #305270;
 }
 
+/* Conteúdo principal */
 section article {
     display: block;
     float: left;
