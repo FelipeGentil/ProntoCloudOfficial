@@ -30,8 +30,6 @@ header {
     background-color: #efefef;
     display: block;
     padding: 20px;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
     border-bottom: 2px solid #254159;
 }
 
@@ -40,8 +38,6 @@ footer {
     background-color: #254159;
     color: white;
     display: block;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
     padding: 20px;
 }
 
@@ -153,4 +149,23 @@ section article {
     display: block;
     float: left;
     width: 70%;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 1198px;
+    margin: 0 auto;
+    position: relative;
 }
