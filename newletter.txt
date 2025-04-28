@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +7,10 @@
 </head>
 <body>
     
-    <table>
+    <table style="width: 600px; margin: 20px auto;">
         <tr>
             <td>
-                <img src="https://prontocloud.com.br/wp-content/uploads/2015/05/prontocloud.png" alt="ProntoCloud">
+                <a href="#"></a><img src="https://prontocloud.com.br/wp-content/uploads/2015/05/prontocloud.png" alt="ProntoCloud">
             </td>
         </tr>
         <tr>
