@@ -95,21 +95,6 @@ h4 {
     letter-spacing: 2px;
 }
 
-#tenho-interesse {
-    background-color: #b8c8d6;
-    width: 100%;
-}
-
-#tenho-interesse form,
-.cognito.c-med .c-forms-form,
-.cognito.c-med .c-forms-form div {
-    background-color: #b8c8d6 !important;
-}
-
-#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
-#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
-    color: #385874;
-
 /* Listas */
 ul {
     margin-left: 30px;
@@ -184,3 +169,93 @@ body {
     margin: 0 auto;
     position: relative;
 }
+#tenho-interesse {
+    background-color: #b8c8d6;
+    width: 100%;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+    background-color: #b8c8d6 !important;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #385874;}
+
+/*Smartphones (até 600px)*/
+
+@media (max-width: 600px) {
+    .main-container {
+        padding: 10px;
+    }
+
+    header img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    article img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    article {
+        padding: 10px;
+    }
+
+    h1, h2, h3, h4 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .main-container {
+      padding: 20px;
+    }
+  
+    header img {
+      max-width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    nav ul {
+      justify-content: space-around;
+    }
+  
+    article img {
+      max-width: 90%;
+      display: block;
+      margin: 20px auto;
+    }
+  
+    article {
+      padding: 20px;
+    }
+  }
+  @media (min-width: 1025px) {
+    .main-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    article {
+      padding: 30px;
+    }
+  }
+    
+
+
+    
