@@ -4,11 +4,13 @@
 }
 
 body, html {
-    margin: 0;
+    margin: 0 auto;
     overflow-x: hidden;
     background-color: white;
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    width: 100%;
 }
 
 /* Container principal */
@@ -17,6 +19,7 @@ body, html {
     max-width: 1198px;
     margin: 0 auto;
     position: relative;
+    display: contents;
 }
 
 .main-container::after {
@@ -148,7 +151,7 @@ nav a:hover {
 section article {
     display: block;
     float: left;
-    width: 70%;
+    width: 100%;
 }
 
 html, body {
@@ -178,11 +181,18 @@ body {
 .cognito.c-med .c-forms-form,
 .cognito.c-med .c-forms-form div {
     background-color: #b8c8d6 !important;
+    padding: 10px;
+    width: 100%;
+    height: auto;
 }
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
 #tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
-    color: #385874;}
+    color: #385874;
+    padding: 10px;
+    display: flex;
+}
+    
 
 /*Smartphones (até 600px)*/
 
@@ -372,6 +382,10 @@ body {
     align-items: center;
     margin: 50vh;
     transform: translateY(-50%);
+  }
+
+  .cog-4 {
+    --form-margin : 10px;
   }
     
 
